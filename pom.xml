@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project 	xmlns="http://maven.apache.org/POM/4.0.0" 
+			xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+			xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    
     <modelVersion>4.0.0</modelVersion>
+    
     <!-- ====================================================================== -->
-    <!-- P A R E N T P R O J E C T D E S C R I P T I O N -->
+    <!-- P A R E N T   P R O J E C T   D E S C R I P T I O N -->
     <!-- ====================================================================== -->
 
     <groupId>pfbasel</groupId>
@@ -11,11 +15,19 @@
     <packaging>pom</packaging>
 
     <name>DummyProject - Reactor Project</name>
-    <description>Maven Multimodule project for DummyProject.</description>
+    <description>Maven Multimodule project for DummyProject</description>
 
     <prerequisites>
         <maven>3.0.2</maven>
     </prerequisites>
+
+	<scm>
+    	<connection>scm:git:https://github.com/tsimlin/dummyProject.git</connection>
+    	<developerConnection>scm:git:https://github.com/tsimlin/dummyProject.git</developerConnection>
+    	<tag>HEAD</tag>
+    	<url>scm:git:https://github.com/tsimlin/dummyProject.git</url>	
+	</scm>
+
 
     <!-- ====================================================================== -->
     <!-- P R O P E R T I E S -->
