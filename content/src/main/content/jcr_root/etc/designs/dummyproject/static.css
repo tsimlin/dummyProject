@@ -1,0 +1,27 @@
+/* general */
+body  {
+    background: white;
+    color: black;
+}
+body, img, a, td, th {
+    font:normal 11px Tahoma, Geneva, Arial, Helvetica, sans-serif;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    border: 0;
+}
+body a       {color:#4F960F;}
+body b a     {font:bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif; color:#4F960F; }
+body a:hover {text-decoration:underline;}
+body span    {color:#8F8F8F; font-size:10px}
+body b       {font:bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif; color:#0D5FA5; font-style:inherit;}
+body strong  {font:bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif; color:#0D5FA5;}
+a {text-decoration:underline }
+body H1 {
+    margin-top:6px;
+    margin-bottom:23px;
+}
+
+body .contents {
+	width:80%;
+	margin-left:10%;	
+}

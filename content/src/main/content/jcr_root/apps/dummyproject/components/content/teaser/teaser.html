@@ -1,6 +1,3 @@
-<div class="${properties.isBorder ? '' : 'noBorder'} ${wcmmode.edit ? 'editmode_component_structure_section' : 'grid-section-group'}">
-	<div data-sly-test="${properties.headline1}" class="group-title">
-          <h2><i>${properties.headline1}</i></h2>
-      </div>
+<div class="${wcmmode.edit ? 'editmode_component_teaser' : 'teaser'}">
     <div data-sly-resource="${ @path='par-teaser', resourceType='foundation/components/parsys'}"></div>
 </div>
