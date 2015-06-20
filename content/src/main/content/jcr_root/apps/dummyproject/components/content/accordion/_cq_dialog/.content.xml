@@ -28,19 +28,9 @@
                                 sling:resourceType="granite/ui/components/foundation/form/textfield"
                                 fieldDescription="onkomm.base.components.structure.headlineDescription"
                                 fieldLabel="onkomm.base.components.structure.headlineLabel"
-                                name="./headline1"/>
-                            <isBorder
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/foundation/form/checkbox"
-                                fieldDescription="onkomm.base.components.structure.section.removeBorder.Description"
-                                name="./isBorder"
-                                text="onkomm.base.components.structure.section.removeBorder.Label"
-                                value="true"/>
-                            <isBorderDelete
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/foundation/form/hidden"
-                                name="./isBorder@Delete"
-                                value="true"/>
+                                name="./title"/>
+                            
+                            
                         </items>
                     </column>
                 </items>
