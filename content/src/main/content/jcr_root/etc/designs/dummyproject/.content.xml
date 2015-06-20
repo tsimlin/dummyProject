@@ -15,7 +15,15 @@
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/parsys"
-                components="[group:Dummy Components, group:General]"/>
+                components="[group:Dummy Components, group:General]">
+                <section 
+					jcr:lastModified="{Date}2015-06-15T16:21:17.402+02:00"
+	                jcr:lastModifiedBy="admin"
+	                jcr:primaryType="nt:unstructured"
+	                sling:resourceType="foundation/components/parsys"
+	                components="[group:Dummy Components, group:General]">
+                </section>
+            </par>
         </contentpage>
     </jcr:content>
     
