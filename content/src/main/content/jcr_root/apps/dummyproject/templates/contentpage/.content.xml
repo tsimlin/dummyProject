@@ -7,5 +7,6 @@
     ranking="{Long}100">
     <jcr:content
         jcr:primaryType="cq:PageContent"
-        sling:resourceType="dummyproject/components/contentpage"/>
+        sling:resourceType="dummyproject/components/contentpage"
+        cq:designPath="/etc/designs/dummyproject"/>
 </jcr:root>
