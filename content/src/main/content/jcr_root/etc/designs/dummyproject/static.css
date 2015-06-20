@@ -25,3 +25,7 @@ body .contents {
 	width:80%;
 	margin-left:10%;	
 }
+
+.grid-section {
+	border-bottom: 1px solid grey;
+}

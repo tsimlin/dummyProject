@@ -13,7 +13,7 @@
         <items jcr:primaryType="nt:unstructured">
             <sectionProperties
                 jcr:primaryType="nt:unstructured"
-                jcr:title="onkomm.base.components.structure.section.sectionProperties"
+                jcr:title="Section Properties"
                 sling:resourceType="granite/ui/components/foundation/section">
                 <layout
                     jcr:primaryType="nt:unstructured"
@@ -26,21 +26,9 @@
                             <headline1
                                 jcr:primaryType="nt:unstructured"
                                 sling:resourceType="granite/ui/components/foundation/form/textfield"
-                                fieldDescription="onkomm.base.components.structure.headlineDescription"
-                                fieldLabel="onkomm.base.components.structure.headlineLabel"
-                                name="./headline1"/>
-                            <isBorder
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/foundation/form/checkbox"
-                                fieldDescription="onkomm.base.components.structure.section.removeBorder.Description"
-                                name="./isBorder"
-                                text="onkomm.base.components.structure.section.removeBorder.Label"
-                                value="true"/>
-                            <isBorderDelete
-                                jcr:primaryType="nt:unstructured"
-                                sling:resourceType="granite/ui/components/foundation/form/hidden"
-                                name="./isBorder@Delete"
-                                value="true"/>
+                                fieldDescription="your title"
+                                fieldLabel="Title"
+                                name="./title"/>
                         </items>
                     </column>
                 </items>
