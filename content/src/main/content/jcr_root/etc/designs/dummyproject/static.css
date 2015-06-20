@@ -12,7 +12,7 @@ body, img, a, td, th {
 body a       {color:#4F960F;}
 body b a     {font:bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif; color:#4F960F; }
 body a:hover {text-decoration:underline;}
-body span    {color:#8F8F8F; font-size:10px}
+body span    {color:#8F8F8F; font-size:120%}
 body b       {font:bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif; color:#0D5FA5; font-style:inherit;}
 body strong  {font:bold 11px Tahoma, Geneva, Arial, Helvetica, sans-serif; color:#0D5FA5;}
 a {text-decoration:underline }
